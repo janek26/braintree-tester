@@ -1,0 +1,18 @@
+{
+  "name": "test-payment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "postbuild": "next export -o docs"
+  },
+  "dependencies": {
+    "braintree-web-drop-in-react": "^1.0.5",
+    "next": "^7.0.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
+  }
+}
