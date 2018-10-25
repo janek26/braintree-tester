@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
-    "postbuild": "next export -o docs"
+    "prestart": "next build",
+    "start": "next start"
   },
   "dependencies": {
     "braintree-web-drop-in-react": "^1.0.5",
